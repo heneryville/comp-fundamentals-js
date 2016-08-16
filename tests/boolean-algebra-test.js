@@ -44,7 +44,7 @@ describe('boolean-algebra',function(){
     itIs('on bottom side',4,10,false)
 
     it('consumes the inner',function(){
-      assert.equal(result, sut({x: -100, y: -100, w: 100000, h: 100000},{x: 2, y: 4, w: 5, h: 6}))
+      assert.equal(true, sut({x: -100, y: -100, w: 100000, h: 100000},{x: 2, y: 4, w: 5, h: 6}))
     })
 
     function itIs(name,x,y,result) {
