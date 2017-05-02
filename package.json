@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha tests/binary-search-test.js"
+    "test": "node_modules/mocha/bin/mocha tests/chaining-test.js"
   },
   "author": "",
   "license": "ISC",
