@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha tests/dependencies-test.js"
+    "test": "node_modules/mocha/bin/mocha tests/local-maximum-test.js"
   },
   "author": "",
   "license": "ISC",
