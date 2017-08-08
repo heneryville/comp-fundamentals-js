@@ -16,7 +16,7 @@ def showAttribute(stream,attributesIndex):
     print(len(mono_stream))
     plt.plot(mono_stream, label = label)
 
-for attr in [0,1,2]:
+for attr in [0]:
     showAttribute(stream,attr)
 
 plt.ylabel('magnitude');
