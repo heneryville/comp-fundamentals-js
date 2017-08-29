@@ -65,6 +65,7 @@ describe('tree-classifier', () => {
         },
         rnode: {class: 'male'}
       };
+
       let actual = treeClassifier.confusionMatrix(data,tree, 'gender',['male','female']);
       assert.deepEqual(actual,[[138,119],[13,274]])
     })
