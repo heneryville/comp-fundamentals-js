@@ -9,10 +9,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.5.0",
     "chai": "^3.5.0",
     "lodash": "^4.17.4",
     "mocha": "^3.0.2",
     "regression": "^2.0.0",
+    "sharp": "^0.18.2",
     "universal-analytics": "^0.4.9"
   }
 }
